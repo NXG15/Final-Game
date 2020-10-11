@@ -104,7 +104,7 @@ function draw() {
       textFont('Georgia');
       text(newChange,50,200);
 
-      if(ball1.y <=250 && (keyDown(UP_ARROW) || touches.length>0)){
+      if(ball1.y <=250 && (keyDown(UP_ARROW) || touches.length > 0)){
         ball2.velocityY = -30;
         touches = [];
       }
