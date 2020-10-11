@@ -36,7 +36,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(500,700);
+  createCanvas(windowWidth,windowHeight);
 
   //spikes
   spike1 = createSprite(240,height-30,40,40);
