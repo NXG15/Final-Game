@@ -74,7 +74,7 @@ function draw() {
 
     //ball velocity
     if((touches.length>0 || keyDown(UP_ARROW))){
-      ball1.velocityY = -30;
+      ball1.velocityY = -50;
       touches = [];
     }
 
@@ -105,7 +105,7 @@ function draw() {
       text(newChange,50,200);
 
       if(ball1.y <=250 && (keyDown(UP_ARROW) || touches.length > 0)){
-        ball2.velocityY = -30;
+        ball2.velocityY = -50;
         touches = [];
       }
 
@@ -219,7 +219,7 @@ function keyPressed(){
 //Changing number in center
 function changeNumber() {
   
-  frameRate(10);
+  frameRate(5);
 
   if (up == true && value <= 100) {
     value += 1;
