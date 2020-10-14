@@ -150,12 +150,12 @@ function draw() {
     
     if(newChange+newChange2==randNumber){
       text("You won!",335,300);
-      text("Tap anywhere on the screen to restart",290,340);
+      text("Tap anywhere on the screen or press space bar to restart",290,340);
     }
 
     else{
       text("You lost! Try again",335,300);
-      text("Tap anywhere on the screen to restart",290,340);
+      text("Tap anywhere on the screen or press space bar to restart",290,340);
     }
   }
 
